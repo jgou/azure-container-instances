@@ -3,7 +3,7 @@ Find some Azure Container Instances examples using Azure CLI 2.0 in this reposit
 
 ## Before start
 * Install Azure CLI: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest
-* Open a Powershell console and write the following command
+* Open a shell (bash, Powershell, ...) and write the following command
 ```
 az login
 ```
