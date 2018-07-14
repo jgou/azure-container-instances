@@ -19,3 +19,5 @@ $resourceGroup = "MyResourceGroup"
 $location = "westeurope"
 az group create -n $resourceGroup -l $location
 ```
+## Examples
+* container groups: Create a container group getting a Ghost image from Docker Hub (https://hub.docker.com/_/ghost/). Ghost is a free and open source blogging platform written in JavaScript. Executing this example, you will have a fully Ghost blogging platform ready to be used. 
