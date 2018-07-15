@@ -1,8 +1,8 @@
 [CmdletBinding()]
 Param(
-    $ResourceGroup = "AciGhost",
+    $ResourceGroup = "AciDemo01",
     $Location = "westeurope",
-    $ContainerGroupName = "ghost-blog01"
+    $ContainerGroupName = "blog01"
 )
 
 New-AzureRmResourceGroup -Name $ResourceGroup -Location $Location

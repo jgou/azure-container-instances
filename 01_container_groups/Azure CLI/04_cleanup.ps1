@@ -1,6 +1,6 @@
 [CmdletBinding()]
 Param(
-    $ResourceGroup = "AciGhost"
+    $ResourceGroup = "AciDemo01"
 )
 
 az group delete -n $resourceGroup -y

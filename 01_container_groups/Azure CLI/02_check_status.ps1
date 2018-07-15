@@ -1,7 +1,7 @@
 [CmdletBinding()]
 Param(
-    $ResourceGroup = "AciGhost",
-    $ContainerGroupName = "ghost-blog01"
+    $ResourceGroup = "AciDemo01",
+    $ContainerGroupName = "blog01"
 )
 
 az container show -g $ResourceGroup -n $ContainerGroupName

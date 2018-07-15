@@ -1,6 +1,6 @@
 [CmdletBinding()]
 Param(
-    $ResourceGroup = "AciGhost"
+    $ResourceGroup = "AciDemo01"
 )
 
 Remove-AzureRmResourceGroup -Name $resourceGroup -Force
